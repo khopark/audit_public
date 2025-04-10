@@ -1,0 +1,74 @@
+/* ✅ 1. 웹폰트 설정 */
+@font-face {
+  font-family: 'D2Coding';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('D2Coding ligature Bold'),
+       url('https://cdn.jsdelivr.net/gh/wan2land/d2coding/fonts/d2coding-ligature-bold-full.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/wan2land/d2coding/fonts/d2coding-ligature-bold-full.woff') format('woff'),
+       url('https://cdn.jsdelivr.net/gh/wan2land/d2coding/fonts/d2coding-ligature-bold-full.ttf') format('truetype');
+  unicode-range: U+0041-005A, U+0061-007A;
+}
+
+@font-face {
+  font-family: 'D2Coding';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('D2Coding ligature Regular'),
+       url('https://cdn.jsdelivr.net/gh/wan2land/d2coding/fonts/d2coding-ligature-full.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/wan2land/d2coding/fonts/d2coding-ligature-full.woff') format('woff'),
+       url('https://cdn.jsdelivr.net/gh/wan2land/d2coding/fonts/d2coding-ligature-full.ttf') format('truetype');
+  unicode-range: U+0041-005A, U+0061-007A;
+}
+
+@font-face {
+  font-family: 'RIDIBatang-subset';
+  src: url('http://cdn.jsdelivr.net/gh/TetraTheta/RIDIBatang-subset/dist/webfont/RIDIBatang-subset.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  unicode-range: U+AC00-D7A3;
+}
+
+body {
+  font-family: 'RIDIBatang-subset', 'D2Coding', sans-serif;
+}
+
+
+/* ✅ 2. 텍스트 색상 클래스 정의 (Obsidian 테마 기반) */
+.red-text {
+  color: rgb(231, 85, 69);
+}
+
+.blue-text {
+  color: rgb(61, 116, 246);
+}
+
+.yellow-text {
+  color: rgb(152, 104, 0);
+}
+
+.green-text {
+  color: rgb(78, 162, 76);
+}
+
+.pink-text {
+  color: rgb(166, 37, 104);
+}
+
+.peach-text {
+  color: rgb(227, 86, 73);
+}
+
+.teal-text {
+  color: rgb(0, 188, 182);
+}
+
+.sky-text {
+  color: rgb(0, 132, 188);
+}
+
+.lavender-text {
+  color: rgb(152, 84, 151);
+}
