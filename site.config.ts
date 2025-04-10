@@ -1,6 +1,6 @@
 export default defineSiteConfig({
   ...
-  stylesheets: [
-    "/custom.css"
-  ]
+  stylesheets: ["/custom.css"],
+  scripts: ["/script.js"],
 });
+
