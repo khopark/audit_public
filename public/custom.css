@@ -77,3 +77,29 @@ body {
   color: rgb(152, 84, 151); /* 보라색 */
 }
 
+.folding-header {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-left: 1.2em;
+}
+
+.folding-header::before {
+  content: "▼";
+  position: absolute;
+  left: 0;
+  transition: transform 0.3s;
+}
+
+.folding-header.folded::before {
+  transform: rotate(-90deg);
+}
+
+.folding-content {
+  margin-top: 0.5em;
+}
+
+.folding-content.hidden {
+  display: none;
+}
+
