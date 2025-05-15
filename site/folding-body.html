@@ -1,0 +1,45 @@
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const headers = document.querySelectorAll(".folding-header");
+    headers.forEach((header) => {
+      header.addEventListener("click", function () {
+        const content = header.nextElementSibling;
+        content.classList.toggle("hidden");
+        header.classList.toggle("folded");
+      });
+    });
+  });
+</script>
+
+<!-- ✅ 항목별 접힘 섹션 -->
+<!--
+<div class="folding-header">1. 추진배경</div>
+<div class="folding-content hidden">
+  <p>이곳에 추진배경에 대한 내용을 넣으세요.</p>
+</div>
+
+<div class="folding-header">2. 수운영관리분석시스템 감리 경험이 중요</div>
+<div class="folding-content hidden">
+  <p>이곳에 해당 내용을 넣으세요.</p>
+</div>
+
+<div class="folding-header">3. 연계 (제안발표자료 p.10)</div>
+<div class="folding-content hidden">
+  <p>연계에 대한 설명을 여기에 작성하세요.</p>
+</div>
+
+<div class="folding-header">4. 네트워크/시스템구성</div>
+<div class="folding-content hidden">
+  <p>시스템 구성 상세 설명을 여기에 넣으세요.</p>
+</div>
+
+<div class="folding-header">5. 급수공사 프로세스 (제안발표자료 p.23)</div>
+<div class="folding-content hidden">
+  <p>프로세스 설명 또는 단계별 내용.</p>
+</div>
+
+<div class="folding-header">6. 기타</div>
+<div class="folding-content hidden">
+  <p>추가적인 항목 설명을 여기에 작성.</p>
+</div>
+-->

@@ -1,0 +1,18 @@
+<!-- Tocbot CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.18.2/dist/tocbot.css" />
+
+<!-- Tocbot HTML 위치 -->
+<div id="toc" class="toc"></div>
+
+<!-- Tocbot JS -->
+<script src="https://cdn.jsdelivr.net/npm/tocbot@4.18.2/dist/tocbot.min.js"></script>
+<script>
+  tocbot.init({
+    tocSelector: '#toc',
+    contentSelector: 'body',
+    headingSelector: 'h1, h2, h3',
+    positionFixedSelector: '#toc',
+    scrollSmooth: true,
+    headingsOffset: 60,
+  });
+</script>
